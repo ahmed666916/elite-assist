@@ -17,6 +17,18 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
 .site-brand{
     color: #fff;
     font-size: 2.4rem;
