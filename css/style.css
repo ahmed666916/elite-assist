@@ -401,6 +401,19 @@ header{
     margin-top: 1.6rem;
     display: inline-block;
 }
+.vision {
+    background-color: var(--light-grey);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+}
+
+.offer {
+    background-color: var(--light-grey);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+}
 
 /* testimonials */
 #testimonials{
